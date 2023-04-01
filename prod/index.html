@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Epidemic Model Designer</title>
+		<meta charset="utf-8" />
+		<!--Charset used in html-->
+		<link rel="stylesheet" type="text/css" href="/jsxgraph.css" />
+		<!--Charset used in html-->
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">    Proper rendering for mobile devices-->
+		<!--Add additional meta tags like keywords, description, author-->
+		<script src="/jsxgraphcore.js"></script>
+		<script src="/jquery-3.5.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/emd.css" />
+		<!--CSS styles-->
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">    Proper rendering for mobile devices-->
+		<!--Add additional meta tags like keywords, description, author-->
+		<script src="/emd.js"></script>
+		<!--Javascript-->
+	</head>
+	<body>
+		<div class="grid">
+		<div id="headerID">Push and Pull algorithm</div>	
+		<div id="populationdivID"></div>
+		<div id="historyboarddivID"></div>
+		<div id="iterationnumberdivID">Round:</div>
+		<div id="UserInputID">
+			<label for="population">Population size:</label>
+			<input type="number" id="population" name="population" value = 10>
+			<button id="populationsetbuttonID" class="downloadupload">Update the population</button>
+			<label for="startbuttonpush" class="labelclass">Push algorithm:</label>
+			<button id="startbuttonpush" class="downloadupload">Start</button>
+			<label for="startbuttonpull" class="labelclass">Pull algorithm:</label>
+			<button id="startbuttonpull" class="downloadupload">Start</button>
+			<label for="startbuttonpp" class="labelclass">Push+Pull algorithm:</label>
+			<button id="startbuttonpp" class="downloadupload">Start</button>
+		</div>
+		</div>
+	</body>
+</html>
+
